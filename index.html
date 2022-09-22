@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>
+        The Weather
+      </title>  
+      <style>
+        body {
+      background-color:rgb(74, 14, 122);
+        }
+        h1 {
+            font-size:34px;
+            font-family:helvetica;
+        }
+        .stemp {
+             color: graytext;  
+             font-family:monospace; 
+             font-size:18px;
+            }
+        .temp {
+          color:white;
+          font-size:1.17em;
+          font-family:helvetica;
+          font-weight:Bold;
+        }
+        .btemp{
+          color:white;
+          margin-top:0;
+          font-size:34px;
+          font-family:helvetica;
+          font-weight:400;
+        }
+        button {
+        background-color: #1a64d6;
+        color:white;
+        border-width:0px;
+        width:134.5px;
+        height:56px;
+        border-radius:28px;
+        transition: 0.5s;
+        }
+        block{
+          display:block;
+          margin-block-start:1em;
+          margin-block-end:1em;
+          margin-inline-start:0px;
+          margin-inline-end:0px;
+          height:122.44px;
+          width:200;
+          background-color: rgb(74, 14, 122);
+          background-opacity:0;
+          margin:0 auto;
+          padding:10px 0;
+          border-radius:15px;
+
+
+        }
+        block:hover{
+          transition:all 200ms ease-in-out;
+          background-color:rgb(235, 170, 235);
+        }
+        button:hover{
+          background-color:white;
+          border-width:1px;
+          border-color:#1a64d6;
+          color:#1a64d6;
+          transition: 0.5s;
+        }
+      </style>
+    </head>
+    <body style="text-align:center">
+        <h1 style="color:#1a64d6">🌤</h1>
+        <h1 style="color:#1a64d6">Currently 21 in Tokyo</h1>
+        <p class="btemp">13°     /   <strong>21°</strong></p>
+        <br>
+        <block>
+        <p class="temp">🌧 Tomorrow</p>
+        <p class="stemp">10°    /      <strong>23°</strong></p>
+      </block>
+      <block>
+        <br>
+        <p class="temp">🌥 Saturday</p>
+        <p class="stemp">15°    /  <strong> 17°</strong></p>
+      </block>
+      <block>
+        <br>
+        <p class="temp">☀️ Sunday</p>
+        <p class="stemp">25°    /<strong> 28°</strong></p>
+      </block>
+        <br>
+        <button> Change city </button>
+    </body>
+</html>
